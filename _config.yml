@@ -1,13 +1,13 @@
 # Site settings
-title: 三叶草国际语
-SEOTitle: 三叶草国际语 - 让沟通更容易
+title: 李嘉图的博客
+SEOTitle: 李嘉图
 header-img: img/post-bg-desk.jpg
-email: klovien@gmail.com
-description: "中西融合, 即学即会, 从此不再辛苦背单词"
-keyword: "人工语言, 国际语, 世界语, 三叶草国际语, 三叶语"
-url: "https://klovien.github.io"          # your host, for absolute URL
+email: 1290267280@qq.comqq.com
+description: "所有的生活都是合理的，我们没有必要相互理解。"
+keyword: "网络中的一座小岛。"
+url: "https://mllijiatu.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/klovien/klovien.github.io.git" # you code repository
+github_repo: "https://github.com/mllijiatu/mllijiatu.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -18,18 +18,12 @@ sidebar-avatar: /img/about-HJ.jpg      # use absolute URL, seeing it's used in b
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-# zhihu_username:     qiubaiying
-# github_username:    qiubaiying
-# facebook_username:  baiying.qiu.7
-# jianshu_username:   e71990ada2fd
-# twitter_username:   qiubaiying
 
 
 
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
@@ -56,17 +50,15 @@ kramdown:
 
 
 # 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: d18b343dd9c7ca49518a                            #生成的clientID
-  clientSecret: 539e88b8a7feffaddbb553b9c421dfefcbc6eced    #生成的clientSecret
-  repo: klovien.github.io    #仓库名称
-  owner: klovien    #github用户名
-  admin: klovien
+  clientID: 2953571a1482cd1d5b13                            #生成的clientID
+  clientSecret: 37c5aabffee8ab62b5188eb2de130afccff8cfb0    #生成的clientSecret
+  repo: mllijiatu.github.io    #仓库名称
+  owner: mllijiatu    #github用户名
+  admin: mllijiatu
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -77,8 +69,8 @@ gitalk:
 # ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-# ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# ga_track_id:             # Format: UA-xxxxxx-xx
+# ga_domain:               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
