@@ -54,8 +54,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 2953571a1482cd1d5b13                            #生成的clientID
-  clientSecret: 37c5aabffee8ab62b5188eb2de130afccff8cfb0    #生成的clientSecret
+  clientID: b0cd4e3887fa981839e8                            #生成的clientID
+  clientSecret: 92d6ddd2afea1ea5d8b73d44c1dfaadb609a4d79    #生成的clientSecret
   repo: mllijiatu.github.io    #仓库名称
   owner: mllijiatu    #github用户名
   admin: mllijiatu
