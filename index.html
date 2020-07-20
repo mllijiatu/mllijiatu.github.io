@@ -2,12 +2,12 @@
 layout: page
 description: "所有的生活都是合理的，我们没有必要相互理解。"
 ---
-<p>访问人数（IP）：{{ page.content | number_of_words }}</p>
+<p>访问人数：{{ page.content | number_of_words }}</p>
 
 
-<!--
-<p>运行时间：<span id="htmer_time" style="color: red;"></span></p>
--->
+
+
+
 
 <!-- 计算网站运行时间 -->
 <span style="font-size:12px;"><script language=JavaScript> 
@@ -57,6 +57,9 @@ description: "所有的生活都是合理的，我们没有必要相互理解。
     setInterval(setTime, 1000);
 </script></span>
 
+
+
+<p>运行时间：<span id="htmer_time" style="color: red;"></span></p>
 
 
 
