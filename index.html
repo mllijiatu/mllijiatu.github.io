@@ -2,7 +2,7 @@
 layout: page
 description: "所有的生活都是合理的，我们没有必要相互理解。"
 ---
-{{ page.content | number_of_words }}
+<p>访问人数：{{ page.content | number_of_words }}</p>
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
