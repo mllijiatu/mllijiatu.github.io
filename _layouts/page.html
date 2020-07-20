@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-
+<!--百度统计-->
+{% include baidu-analysis.html %}
 <!-- Page Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
@@ -15,6 +16,16 @@ layout: default
             </div>
         </div>
     </div>
+	<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?64c91e8b88ec42012f87d45b6de31c65";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 </header>
 
 <!-- Main Content -->
