@@ -17,7 +17,8 @@ sidebar-avatar: /img/about-LJT.jpg      # use absolute URL, seeing it's used in 
 # SNS settings
 RSS: false
 
-
+#百度统计
+baidu-analysis： 64c91e8b88ec42012f87d45b6de31c65
 
 
 # Build settings
