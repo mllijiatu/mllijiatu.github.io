@@ -7,7 +7,7 @@ author:     李嘉图
 header-img: img/about-LJT.jpg
 catalog: false
 tags:
-- HTML
+- Html
 ---
 
 <!DOCTYPE html><!--表申明的意思，表示下面的代码用HTML5的规范去解析-->
